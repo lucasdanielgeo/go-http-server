@@ -20,7 +20,7 @@ This Golang project is a hands-on exploration of essential HTTP server concepts,
 Run the following command to tidy up Go modules and start the application locally:
 
 ```bash
-	make dev
+make dev
 ``` 
 
 ### Dockerized Deployment
@@ -29,13 +29,13 @@ Build the Docker image, run the container, or stop the container using the follo
 Or you run using a container:
 
 ```bash
-	# Build Docker Image
-	make build-image
+# Build Docker Image
+make build-image
 
-	# Run Docker Container (Exposing Port 3000)
-	make start-container
+# Run Docker Container (Exposing Port 3000)
+make start-container
 
-	# Stop Docker Container
-	make stop-container
+# Stop Docker Container
+make stop-container
 ``` 
 
